@@ -8,7 +8,7 @@ import { AiFillStar ,AiOutlineHeart} from 'react-icons/ai';
 class Body extends React.Component{
     render(){
         return(
-<Container className=" my-5" >
+<Container className=" bodyContainer "  >
 
 <div className="border-bottom py-3  "> 
     300 + stays

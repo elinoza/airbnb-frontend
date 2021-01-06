@@ -56,3 +56,42 @@ nav.navbar{
    z-index:99;
    background-color:white;
 }
+.bodyContainer{
+    margin-top:80px;
+}
+
+.header{
+    background-color:white;
+    height:250px;
+    position:fixed;
+  
+    top:0;
+    left:0;
+    right:0;
+    z-index:100;
+}
+
+.filterpart{
+    padding-top: 0.375rem;
+    padding-right: 0.75rem;
+    padding-bottom: 0.375rem;
+    padding-left: 0.75rem;
+    width:725px;
+    height:64px;
+    /* background-color:#EBEBEB; */
+    font-size:11px;
+
+    border:solid 1px #ced4da;
+    border-radius: 1rem;
+}
+
+input.filter{
+    font-size:12px;
+    background-color:none;
+    border:none;
+    width:100%;
+}
+
+ 
+    
+

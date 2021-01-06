@@ -1,0 +1,30 @@
+
+body{
+    color:#222323; 
+    font-size: 14px
+
+}
+.color{
+    color:#222323; 
+    font-size: 14px
+
+}
+.logo{
+    color:#FF395B;
+    font-size:50px
+}
+
+.searchBar{
+    padding-top: 0.375rem;
+    padding-right: 0.75rem;
+    padding-bottom: 0.375rem;
+    padding-left: 0.75rem;
+    width:300px;
+
+    border:solid 1px #ced4da;
+    border-radius: 1rem;
+}
+.searchicon{
+    font-size:32px;
+    color:#FF395B
+}

@@ -9,16 +9,16 @@ class NavBar extends React.Component{
     render(){
         return(
 
-            <Navbar >
+            <Navbar className="shadow">
             <Navbar.Brand href="#home"><SiAirbnb className="logo"/></Navbar.Brand>
-            <div className="searchBar mr-sm-2 "  >
+            <Button variant="none" className="searchBar mr-sm-2 "  >
                 <p className="d-inline ">Start your search</p>
               
              <p className="d-inline ml-5 "><IoSearchCircleSharp className="searchicon"/></p> 
-            </div>
+            </Button >
             <Nav className="ml-auto ">
-              <Nav.Link href="#home">Become a host</Nav.Link>
-              <Nav.Link href="#features"><BiWorld/></Nav.Link>
+              <Nav.Link style={{color:"#222323", fontWeight:"bold", marginLeft:"10px"}} href="#home">Become a host</Nav.Link>
+              <Nav.Link style={{color:"#222323", fontWeight:"bold",marginLeft:"10px", fontSize:"16px"}}  href="#features"><BiWorld/></Nav.Link>
               
               <NavDropdown  id="collasible-nav-dropdown">
               

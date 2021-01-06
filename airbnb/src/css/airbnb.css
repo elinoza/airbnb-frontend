@@ -1,9 +1,11 @@
 
 body{
     color:#222323; 
-    font-size: 14px
+    font-size: 14px;
+    font-family:"Circular", "-apple-system", "system-ui", "Roboto", "Helvetica Neue", sans-serif
 
 }
+
 .color{
     color:#222323; 
     font-size: 14px
@@ -27,4 +29,10 @@ body{
 .searchicon{
     font-size:32px;
     color:#FF395B
+}
+.filterButton{
+    border:solid 1px #ced4da;
+    border-radius: 1rem;
+    font-size: 12px;
+    color:#222323;
 }

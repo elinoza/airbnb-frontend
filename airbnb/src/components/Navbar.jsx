@@ -9,7 +9,7 @@ class NavBar extends React.Component{
     render(){
         return(
 
-            <Navbar className="shadow">
+            <Navbar   className="shadow">
             <Navbar.Brand href="#home"><SiAirbnb className="logo"/></Navbar.Brand>
             <Button variant="none" className="searchBar mr-sm-2 "  >
                 <p className="d-inline ">Start your search</p>

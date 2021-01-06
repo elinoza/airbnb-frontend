@@ -1,13 +1,14 @@
 import React from "react"
-import {Container} from "react-bootstrap"
-import {Button} from "react-bootstrap"
+import {Container,Button, Card, Row, Col} from "react-bootstrap"
+import { AiFillStar ,AiOutlineHeart} from 'react-icons/ai';
+
 
 
 
 class Body extends React.Component{
     render(){
         return(
-<Container className=" my-5">
+<Container className=" my-5" >
 
 <div className="border-bottom py-3  "> 
     300 + stays
@@ -26,14 +27,19 @@ class Body extends React.Component{
 <Row>
     <Col sm={6} md={3} lg={2}>
             <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
+                <div style={{ position:"relative"}}> 
+                <Card.Img variant="top" src="https://via.placeholder.com/150" />
+                <AiOutlineHeart  id="hearticon"/>
+                </div>
+        
         <Card.Body>
             <Card.Title>Card Title</Card.Title>
             <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of
-            the card's content.
+            <div><AiFillStar className="staricon"/> Rate (people)</div>
+            <p>Type of Place . City</p>
+            <p>Description</p>
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            
         </Card.Body>
         </Card>
     </Col>

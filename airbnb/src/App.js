@@ -10,7 +10,7 @@ function App() {
     <div >
   
       <NavBar/>
-      <Body/>
+      <Body />
       
     </div>
   );
